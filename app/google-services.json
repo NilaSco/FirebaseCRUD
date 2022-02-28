@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1079221201615",
+    "project_id": "fir-crud-eaa9b",
+    "storage_bucket": "fir-crud-eaa9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079221201615:android:b10058fdf0ff0d390e65ba",
+        "android_client_info": {
+          "package_name": "studytree.edu.firebasecrud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079221201615-dl63nieik2je1j0f1hgu19aglpuc5mgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVicSCPed8LeqxbYevC9RKwqbEzptgATo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079221201615-dl63nieik2je1j0f1hgu19aglpuc5mgr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_centerInParent="true"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <TextView
+           android:gravity="center"
+           android:textColor="@color/black"
+           android:textStyle="bold"
+           android:textSize="35sp"
+           android:layout_marginTop="25dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Firebase CRUD"/>
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="25dp"/>
+
+       <Button
+           android:id="@+id/btnInsert"
+           style="@style/app_button_style"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Insert Data"/>
+
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="10dp"/>
+
+       <Button
+           android:id="@+id/btnView"
+           style="@style/app_button_style"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="View Data"/>
+
+
+       <ImageView
+           android:padding="20dp"
+           android:layout_gravity="center"
+           android:layout_width="150dp"
+           android:layout_height="150dp"
+           android:src="@drawable/firbase_logo"/>
+
+   </LinearLayout>
+
+</RelativeLayout>
